@@ -270,12 +270,12 @@ function setup(){
   makeSplashScreen();
 
   //test filter
-  var pixFilter = new PIXI.filters.PixelateFilter();
+  //var pixFilter = new PIXI.filters.PixelateFilter();
 
-  var pixel = new PIXI.Point(5, 5);
-  pixFilter.size = (pixel);
+  //var pixel = new PIXI.Point(5, 5);
+  //pixFilter.size = (pixel);
 
-  stage.filters = [pixFilter];
+  //stage.filters = [pixFilter];
 
   //Tell the 'renderer' to 'render' the 'stage'
   renderer.render(stage);
